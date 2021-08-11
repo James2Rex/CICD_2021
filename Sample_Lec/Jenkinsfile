@@ -19,7 +19,7 @@ pipeline {
             agent any
             
             steps {
-                echo "Let's start Long Journey !!"
+                echo "Let's start Long Journey !! test~~~"
                 echo 'Clonning Repository'
 
                 git url: 'https://github.com/James2Rex/CICD_2021.git',
