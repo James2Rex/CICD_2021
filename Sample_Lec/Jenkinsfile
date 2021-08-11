@@ -24,7 +24,7 @@ pipeline {
 
                 git url: 'https://github.com/James2Rex/CICD_2021.git',
                     branch: 'master',
-                    credentialsId: 'James2Rex'
+                    credentialsId: 'TokenforGitHub'
             }
 
             post {
